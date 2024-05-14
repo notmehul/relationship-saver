@@ -2,8 +2,8 @@ import streamlit as st
 from groq import Groq
 from typing import Generator
 
-st.title("Relationship Therapist, can you save your marriage?")
-st.image("default.jpeg", width=100, use_column_width='auto')
+st.title("Situationship coach, will it make or break?")
+st.image("new-default.jpeg", width=100, use_column_width='auto')
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
